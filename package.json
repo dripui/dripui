@@ -1,5 +1,5 @@
 {
-  "name": "@yamcodes/ui",
+  "name": "dropui",
   "version": "0.1.1",
   "description": "Pixel perfect UI components for React",
   "type": "module",
@@ -57,9 +57,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/yamcodes/ui.git"
+    "url": "git+https://github.com/dropui/dropui.git"
   },
-  "author": "yamcodes",
+  "author": "yamcodes <hi@yam.codes>",
   "license": "MIT",
   "keywords": [
     "react",

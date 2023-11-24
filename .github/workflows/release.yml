@@ -13,7 +13,7 @@ jobs:
         id: release
         with:
           release-type: node
-          package-name: '@yamcodes/ui'
+          package-name: 'dropui'
 
   publish:
     runs-on: ubuntu-latest
