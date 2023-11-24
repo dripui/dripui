@@ -1,3 +1,2 @@
-import { Transition as HUITransition } from '@headlessui/react';
+export { Transition } from '@headlessui/react';
 
-export const Transition = HUITransition;

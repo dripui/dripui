@@ -1,12 +1,12 @@
 import { ComponentProps, forwardRef } from 'react';
 import { twJoin, twMerge } from 'tailwind-merge';
 
-interface Props extends ComponentProps<'input'> {
+interface TextboxProps extends ComponentProps<'input'> {
   label?: string;
   errorMessage?: string;
 }
 
-export const Textbox = forwardRef<HTMLInputElement, Props>(
+export const Textbox = forwardRef<HTMLInputElement, TextboxProps>(
   ({ className, name, errorMessage, ...rest }, ref) => {
     return (
       <div className="flex flex-col">

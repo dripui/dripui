@@ -2,7 +2,7 @@ import { Dialog as HUIDialog, Transition } from '@headlessui/react';
 import { ReactNode, ComponentProps, Fragment } from 'react';
 import { twMerge } from 'tailwind-merge';
 
-type Props = ComponentProps<typeof HUIDialog> & {
+type DialogProps = ComponentProps<typeof HUIDialog> & {
   actions?: ReactNode[];
   title: string;
 };
@@ -14,7 +14,7 @@ export const Dialog = ({
   open,
   title,
   ...rest
-}: Props) => (
+}: DialogProps) => (
   <Transition appear show={open} as={Fragment}>
     <HUIDialog
       {...rest}

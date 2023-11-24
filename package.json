@@ -11,7 +11,7 @@
     "format": "prettier --write .",
     "lint": "bun format:check && eslint .",
     "lint:fix": "bun format && eslint . --fix",
-    "prepublishOnly": "bun run build"
+    "prepack": "bun run build"
   },
   "dependencies": {
     "@headlessui/react": "^1.7.17",

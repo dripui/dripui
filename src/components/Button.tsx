@@ -2,9 +2,9 @@ import { ComponentProps, JSX } from 'react';
 import { twJoin, twMerge } from 'tailwind-merge';
 
 // Infer types from props to improve intellisense
-type Size = Exclude<Props['size'], undefined>;
-type Variant = Exclude<Props['variant'], undefined>;
-type Color = Exclude<Props['color'], undefined>;
+type Size = Exclude<ButtonProps['size'], undefined>;
+type Variant = Exclude<ButtonProps['variant'], undefined>;
+type Color = Exclude<ButtonProps['color'], undefined>;
 
 const baseClassnames = twJoin(
   'rounded-md border',
@@ -49,7 +49,7 @@ const variantColorClassnames: Record<Variant, Record<Color, string>> = {
   },
 };
 
-interface Props extends ComponentProps<'button'> {
+interface ButtonProps extends ComponentProps<'button'> {
   variant?: 'primary' | 'secondary';
   color?: 'danger' | 'info' | 'success' | 'warning' | 'default';
   size?: 'xs' | 'sm' | 'md' | 'lg' | 'xl';
@@ -65,7 +65,7 @@ export const Button = ({
   color = 'default',
   icon,
   ...rest
-}: Props) => (
+}: ButtonProps) => (
   <button
     className={twMerge(
       baseClassnames,

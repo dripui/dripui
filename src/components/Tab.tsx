@@ -1,19 +1,16 @@
-import { Tab as HeadlessUiTab } from '@headlessui/react';
+import { Tab as HeadlessUITab } from '@headlessui/react';
 import { FC, PropsWithChildren, JSX } from 'react';
 import { twJoin, twMerge } from 'tailwind-merge';
 
-export interface TabType {
+interface BaseTabProps {
+  className?: string;
   name: string;
   icon?: JSX.Element;
 }
 
-interface BaseTabProps extends TabType {
-  className?: string;
-}
-
 const BaseTab = ({ name, icon, className }: BaseTabProps) => {
   return (
-    <HeadlessUiTab
+    <HeadlessUITab
       className={({ selected }) =>
         twMerge(
           twJoin(
@@ -40,17 +37,28 @@ const BaseTab = ({ name, icon, className }: BaseTabProps) => {
           </span>
         </>
       </span>
-    </HeadlessUiTab>
+    </HeadlessUITab>
   );
 };
 
-const Panel: FC<PropsWithChildren> = ({ children }) => {
-  return <HeadlessUiTab.Panel className="my-6">{children}</HeadlessUiTab.Panel>;
+const Panel = ({ children }:PropsWithChildren) => {
+  return <HeadlessUITab.Panel className="my-6">{children}</HeadlessUITab.Panel>;
 };
 
-export const Tab = Object.assign(BaseTab, {
-  List: HeadlessUiTab.List,
-  Group: HeadlessUiTab.Group,
-  Panels: HeadlessUiTab.Panels,
+interface TabType extends FC<BaseTabProps> {
+  List: typeof HeadlessUITab.List;
+  Group: typeof HeadlessUITab.Group;
+  Panels: typeof HeadlessUITab.Panels;
+  Panel: typeof Panel;
+}
+
+
+const MyHeadlessUITab: TabType = Object.assign(BaseTab, {
+  List: HeadlessUITab.List,
+  Group: HeadlessUITab.Group,
+  Panels: HeadlessUITab.Panels,
   Panel,
 });
+export {
+  MyHeadlessUITab as HeadlessUITab
+}
