@@ -1,6 +1,6 @@
 {
   "name": "@yamcodes/ui",
-  "version": "0.0.2",
+  "version": "0.1.0",
   "description": "Pixel perfect UI components for React",
   "type": "module",
   "scripts": {
