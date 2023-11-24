@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.0.1](https://github.com/yamcodes/ui/compare/v0.0.1...v0.0.1) (2023-11-24)
+
+
+### Miscellaneous Chores
+
+* release 0.0.1 ([e213666](https://github.com/yamcodes/ui/commit/e21366621b380176917a83b42d6b95a25f9ef8c6))
+
 ## 0.0.1 (2023-11-24)
 
 
