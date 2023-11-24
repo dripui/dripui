@@ -1,14 +1,14 @@
-import { Config } from "tailwindcss";
-import colors from "tailwindcss/colors";
-import headlessUi from "@headlessui/tailwindcss";
-import patterns from "tailwindcss-patterns";
+import { Config } from 'tailwindcss';
+import colors from 'tailwindcss/colors';
+import headlessUi from '@headlessui/tailwindcss';
+import patterns from 'tailwindcss-patterns';
 
 type TwColor = keyof typeof colors;
 type TwColorValue = (typeof colors)[TwColor];
 
 const addDefault = (color: TwColorValue) => {
   // if color is an object we can destructure:
-  if (typeof color === "object") return { ...color, DEFAULT: color[500] };
+  if (typeof color === 'object') return { ...color, DEFAULT: color[500] };
   // there is no default color, so we can just return the color
   return color;
 };
@@ -27,15 +27,15 @@ const getColors = (colorsMap: Record<string, TwColor>) => {
 };
 
 const config: Config = {
-  content: ["./src/**/*.{js,jsx,ts,tsx}", "./index.html"],
+  content: ['./src/**/*.{js,jsx,ts,tsx}', './index.html'],
   theme: {
     extend: {
       colors: getColors({
-        success: "green",
-        warning: "yellow",
-        danger: "red",
-        info: "blue",
-        default: "gray",
+        success: 'green',
+        warning: 'yellow',
+        danger: 'red',
+        info: 'blue',
+        default: 'gray',
       }),
     },
   },

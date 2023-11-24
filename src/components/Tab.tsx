@@ -1,6 +1,6 @@
-import { Tab as HeadlessUiTab } from "@headlessui/react";
-import { FC, PropsWithChildren, JSX } from "react";
-import { twJoin, twMerge } from "tailwind-merge";
+import { Tab as HeadlessUiTab } from '@headlessui/react';
+import { FC, PropsWithChildren, JSX } from 'react';
+import { twJoin, twMerge } from 'tailwind-merge';
 
 export interface TabType {
   name: string;
@@ -17,11 +17,11 @@ const BaseTab = ({ name, icon, className }: BaseTabProps) => {
       className={({ selected }) =>
         twMerge(
           twJoin(
-            "relative cursor-pointer select-none rounded bg-transparent px-2 py-1 text-sm hover:bg-gray-100 focus:outline-none",
-            "transition duration-100 ease-in-out",
+            'relative cursor-pointer select-none rounded bg-transparent px-2 py-1 text-sm hover:bg-gray-100 focus:outline-none',
+            'transition duration-100 ease-in-out',
 
             selected &&
-              "font-semibold after:absolute after:bottom-[calc(50%-23px)] after:left-0 after:z-10 after:h-[2px] after:w-[100%] after:rounded after:bg-gradient-to-r after:from-blue-700 after:to-blue-500",
+              'font-semibold after:absolute after:bottom-[calc(50%-23px)] after:left-0 after:z-10 after:h-[2px] after:w-[100%] after:rounded after:bg-gradient-to-r after:from-blue-700 after:to-blue-500',
           ),
           className,
         )

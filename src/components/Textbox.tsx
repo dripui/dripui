@@ -1,7 +1,7 @@
-import { ComponentProps, forwardRef } from "react";
-import { twJoin, twMerge } from "tailwind-merge";
+import { ComponentProps, forwardRef } from 'react';
+import { twJoin, twMerge } from 'tailwind-merge';
 
-interface Props extends ComponentProps<"input"> {
+interface Props extends ComponentProps<'input'> {
   label?: string;
   errorMessage?: string;
 }
@@ -16,11 +16,11 @@ export const Textbox = forwardRef<HTMLInputElement, Props>(
         <input
           className={twJoin(
             twMerge(
-              "sm:max-w-screen rounded border border-gray-200 bg-white px-3 py-1.5 text-sm shadow-sm md:max-w-[300px]",
+              'sm:max-w-screen rounded border border-gray-200 bg-white px-3 py-1.5 text-sm shadow-sm md:max-w-[300px]',
               errorMessage
-                ? "border-red-400 text-red-700 placeholder-red-300 focus:outline-red-500"
-                : "border-gray-200",
-              " ",
+                ? 'border-red-400 text-red-700 placeholder-red-300 focus:outline-red-500'
+                : 'border-gray-200',
+              ' ',
             ),
             className,
           )}

@@ -1,6 +1,6 @@
-import { Dialog as HUIDialog, Transition } from "@headlessui/react";
-import { ReactNode, ComponentProps, Fragment } from "react";
-import { twMerge } from "tailwind-merge";
+import { Dialog as HUIDialog, Transition } from '@headlessui/react';
+import { ReactNode, ComponentProps, Fragment } from 'react';
+import { twMerge } from 'tailwind-merge';
 
 type Props = ComponentProps<typeof HUIDialog> & {
   actions?: ReactNode[];
@@ -19,10 +19,10 @@ export const Dialog = ({
     <HUIDialog
       {...rest}
       className={twMerge(
-        "relative z-50 rounded-md bg-white shadow-xl",
+        'relative z-50 rounded-md bg-white shadow-xl',
         className,
       )}
-      as={"div"}
+      as={'div'}
     >
       <Transition.Child
         as={Fragment}
