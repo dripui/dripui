@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.1.1](https://github.com/yamcodes/ui/compare/v0.1.0...v0.1.1) (2023-11-24)
+
+
+### Bug Fixes
+
+* package bundle issues preventing import ([9771d78](https://github.com/yamcodes/ui/commit/9771d78600f5ddda5db35463934da98e85c7b1be))
+
 ## [0.1.0](https://github.com/yamcodes/ui/compare/v0.0.2...v0.1.0) (2023-11-24)
 
 
