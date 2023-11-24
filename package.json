@@ -1,6 +1,7 @@
 {
   "name": "@yamcodes/ui",
   "version": "0.0.1",
+  "description": "Pixel perfect UI components for React",
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -39,5 +40,30 @@
     "typescript": "^5.2.2",
     "vite": "^5.0.0",
     "vite-plugin-dts": "^3.6.3"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yamcodes/ui.git"
+  },
+  "author": "yamcodes",
+  "license": "MIT",
+  "keywords": [
+    "react",
+    "tailwindcss",
+    "tailwind",
+    "ui",
+    "components",
+    "design",
+    "system",
+    "library",
+    "component",
+    "library",
+    "design",
+    "system",
+    "ui",
+    "components",
+    "react",
+    "tailwind",
+    "tailwindcss"
+  ]
 }
