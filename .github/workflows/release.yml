@@ -29,11 +29,12 @@ jobs:
 
       - name: Setup Bun and NPM registry
         uses: oven-sh/setup-bun@v1
-        with:
-          registry-url: https://registry.npmjs.org
 
       - name: Install core dependencies
         run: bun i
+
+      - name: Setup NPM
+        run: npm config set //registry.npmjs.org/:_authToken=${{secrets.NPM_TOKEN}}
 
       - name: Publish to NPM
         run: npm publish --provenance
