@@ -24,12 +24,18 @@ jobs:
     needs: create-release
     if: ${{ needs.create-release.outputs.release_created }}
     steps:
-      - uses: actions/checkout@v3
-      - uses: oven-sh/setup-bun@v1
+      - name: Checkout
+        uses: actions/checkout@v3
+
+      - name: Setup Bun and NPM registry
+        uses: oven-sh/setup-bun@v1
+        with:
+          registry-url: https://registry.npmjs.org
 
       - name: Install core dependencies
         run: bun i
 
-      - run: npm publish --provenance
+      - name: Publish to NPM
+        run: npm publish --provenance
         env:
           NODE_AUTH_TOKEN: ${{secrets.NPM_TOKEN}}
