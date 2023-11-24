@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.1.0](https://github.com/yamcodes/ui/compare/v0.0.2...v0.1.0) (2023-11-24)
+
+
+### Features
+
+* d.ts types ([66b8ebe](https://github.com/yamcodes/ui/commit/66b8ebe2993444928a8f1fedd644fc7b4e54940a))
+
 ## [0.0.2](https://github.com/yamcodes/ui/compare/v0.0.1...v0.0.2) (2023-11-24)
 
 ### Bug Fixes
