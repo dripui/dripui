@@ -1,7 +1,7 @@
 {
   "name": "dropui",
   "version": "0.1.1",
-  "description": "Pixel perfect UI components for React",
+  "description": "💧 Add just a few drops of pixel-perfect UI to your React app",
   "type": "module",
   "main": "dist/index.js",
   "module": "dist/index.js",
