@@ -8,9 +8,6 @@
 
 ## Quickstart
 
-> [!WARNING]
-> Make sure your app is waterproof (or at least, water-resistent) before installing.
-
 ##### npm
 
 ```sh
