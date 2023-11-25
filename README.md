@@ -2,7 +2,7 @@
   <h1>dripUI <a href="https://www.github.com/dripui/dripui/releases/latest"><img src="https://img.shields.io/github/v/release/dripui/dripui?label&color=blue"/></a></h1>
 <a href="https://www.github.com/dripui/dripui/blob/main/LICENSE"
 ><img src="https://img.shields.io/github/license/dripui/dripui?color=blue"/></a> <a href="https://conventionalcommits.org"><img src="https://img.shields.io/badge/Conventional%20Commits-1.0.0-%232181c1?logo=conventionalcommits&logoColor=white"/></a>
-<br>Hyperminimal React components. Let's get your app a new drip 💧😎
+<br>Hyperminimal React components. Let's get your app a new drip 💧🕶️
 
 <br>
 
