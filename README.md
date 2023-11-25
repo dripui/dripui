@@ -8,29 +8,54 @@
 
 ## Quickstart
 
-##### npm
+<details open>
+  <summary>
+    
+  ### npm
+
+  </summary>
 
 ```sh
 npm add @dripui/react
 ```
 
-##### Yarn
+</details>
+<details>
+  <summary>
+  
+  ### Yarn
 
-```sh
-yarn add @dripui/react
-```
+  </summary>
+  
+  ```sh
+  yarn add @dripui/react
+  ```
+  
+</details>
+<details>
+  <summary>
+  
+  ### pnpm
 
-##### pnpm
+  </summary>
+  
+  ```sh
+  pnpm add @dripui/react
+  ```
+  
+</details>
+<details>
+  <summary>
+  
+  ### Bun
 
-```sh
-pnpm add @dripui/react
-```
-
-##### Bun
-
-```sh
-bun add @dripui/react
-```
+  </summary>
+  
+  ```sh
+  bun add @dripui/react
+  ```
+  
+</details>
 
 ## Showcase
 
