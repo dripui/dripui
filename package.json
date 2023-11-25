@@ -1,7 +1,7 @@
 {
   "name": "dripui",
   "version": "0.1.1",
-  "description": "💧 Add just a few drops of pixel-perfect UI to your React app",
+  "description": "Let's get your React app a new drip 💧",
   "type": "module",
   "main": "dist/index.umd.cjs",
   "module": "dist/index.js",
