@@ -1,5 +1,5 @@
 {
-  "name": "dripui",
+  "name": "@dripui/react",
   "version": "0.1.1",
   "description": "Let's get your React app a new drip 💧",
   "type": "module",
