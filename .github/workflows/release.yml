@@ -13,7 +13,7 @@ jobs:
         id: release
         with:
           release-type: node
-          package-name: 'dripui'
+          package-name: '@dripui/react'
 
   publish:
     runs-on: ubuntu-latest
