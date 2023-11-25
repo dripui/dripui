@@ -28,7 +28,7 @@ yarn add dropui
 pnpm add dropui
 ```
 
-##### bun
+##### Bun
 ```sh
 bun add dropui
 ```
