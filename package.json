@@ -59,7 +59,7 @@
     "type": "git",
     "url": "git+https://github.com/dropui/dropui.git"
   },
-  "author": "yamcodes <hi@yam.codes>",
+  "author": "Yam Borodetsky <hi@yam.codes>",
   "license": "MIT",
   "keywords": [
     "react",
