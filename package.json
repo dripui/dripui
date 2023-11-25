@@ -1,5 +1,5 @@
 {
-  "name": "dropui",
+  "name": "dripui",
   "version": "0.1.1",
   "description": "💧 Add just a few drops of pixel-perfect UI to your React app",
   "type": "module",
@@ -57,7 +57,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/dropui/dropui.git"
+    "url": "git+https://github.com/dripui/dripui.git"
   },
   "author": "Yam Borodetsky <hi@yam.codes>",
   "license": "MIT",
