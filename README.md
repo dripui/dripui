@@ -9,56 +9,36 @@
 ## Quickstart
 
 <details open>
-  <summary>
-    
-  ### npm
-
-  </summary>
-
+  <summary>npm</summary>
+  
 ```sh
 npm add @dripui/react
 ```
-
 </details>
 <details>
-  <summary>
-  
-  ### Yarn
-
-  </summary>
+  <summary>Yarn</summary>
   
   ```sh
   yarn add @dripui/react
   ```
-  
 </details>
 <details>
-  <summary>
-  
-  ### pnpm
-
-  </summary>
+  <summary>pnpm</summary>
   
   ```sh
   pnpm add @dripui/react
   ```
-  
 </details>
 <details>
-  <summary>
-  
-  ### Bun
-
-  </summary>
+  <summary>Bun</summary>
   
   ```sh
   bun add @dripui/react
   ```
-  
 </details>
 
 ## Showcase
 
-### _[ProductHub](https://github.com/yamcodes/ProductHub)_
+_[ProductHub](https://github.com/yamcodes/ProductHub)_
 
 ![CleanShot 2023-11-25 at 01 50 28@2x](https://github.com/dripui/dripui/assets/2014360/4b5f14d9-59c4-4c3c-a431-5382aa19377b)
